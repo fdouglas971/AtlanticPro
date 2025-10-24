@@ -1,0 +1,20 @@
+/* Appliquer une marge zéro et un remplissage zéro au body pour éviter les décalages */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Conteneur central */
+.center-container {
+    text-align: center;
+}
+
+/* Image */
+.center-container img {
+    max-width: 100%;
+    height: auto;
+}
